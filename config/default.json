@@ -1,13 +1,13 @@
 {
     "general": {
-        "port": 8900
+        "port": 8080
     },
     "database": {
-        "host": "localhost",
+        "host": "bzvx8w8e1hyr5rrzein1-mysql.services.clever-cloud.com", 
         "port": 3306,
-        "uid": "root",
-        "pass": "",
-        "db_name": "workstation_man_db",
+        "uid": "ulspdph0i36csgxe",
+        "pass": "GmIeeE6FGlqZQafjdjbM",
+        "db_name": "bzvx8w8e1hyr5rrzein1",
         "dialect": "mysql"
     }
 }
