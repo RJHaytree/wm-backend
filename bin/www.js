@@ -5,7 +5,7 @@ const app = require('../app');
 const http = require('http');
 const config = require('config');
 
-const port = config.get('general.port') || 8900;
+const port = process.env.PORT || config.get('general.port');
 
 app.set('port', port);
 
